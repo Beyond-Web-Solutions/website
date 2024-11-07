@@ -7,7 +7,7 @@ import { Metadata } from "next";
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export async function generateStaticParams() {
-  return locales.map((locale) => ({ lang: locale }));
+  return locales.map((locale) => ({ locale: locale }));
 }
 
 export const metadata: Metadata = {
