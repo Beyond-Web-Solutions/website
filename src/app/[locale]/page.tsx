@@ -35,7 +35,7 @@ export default async function Home({
   const t = await getScopedI18n("home");
 
   return (
-    <div className="h-screen w-screen flex gap-20 flex-col justify-center items-center">
+    <div className="h-screen w-screen flex sm:gap-20 gap-4 flex-col justify-center items-center">
       <Image
         className="block dark:hidden w-1/12"
         src={DarkLogo}
