@@ -1,8 +1,8 @@
 import React from "react";
 import { Poppins } from "next/font/google";
 import { Metadata } from "next";
-import "./globals.css";
 import { Header } from "@/app/_components/layout/header/header";
+import "./globals.css";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
