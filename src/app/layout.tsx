@@ -1,14 +1,10 @@
 import React from "react";
 import { Poppins } from "next/font/google";
-import { Locale, locales } from "@/lib/i18n/constants";
-import "../globals.css";
 import { Metadata } from "next";
+import "./globals.css";
+import { Header } from "@/app/_components/layout/header/header";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
-
-export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale: locale }));
-}
 
 export const metadata: Metadata = {
   title: {
@@ -20,16 +16,15 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
 }>) {
-  const { locale } = await params;
-
   return (
-    <html lang={locale}>
-      <body className={`${poppins.className} antialiased`}>{children}</body>
+    <html lang="nl-NL">
+      <body className={`${poppins.className} antialiased`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
