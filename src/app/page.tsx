@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { HomeHero } from "@/app/_components/home/hero/hero";
-import { Services } from "@/app/_components/home/services/wrapper";
+import { Services } from "@/app/_components/home/services";
+import { HowWeWork } from "@/app/_components/home/how-we-work";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -14,7 +15,7 @@ export default async function Home() {
     <main>
       <HomeHero />
       <Services />
-      <div className="h-[300vh]" />
+      <HowWeWork />
       {/*<HomeClients />*/}
     </main>
   );

@@ -1,6 +1,6 @@
 export function HomeHeroTitle() {
   return (
-    <h1 className="text-center text-[25vw] leading-none text-primary md:text-[20vw] lg:text-left lg:text-[12vw] 2xl:text-[10vw]">
+    <h1 className="text-center text-[25vw] leading-none text-primary md:text-[20vw] lg:text-left lg:text-[10vw] 2xl:text-[10vw]">
       We <br className="hidden lg:block" />
       build <br className="hidden lg:block" />
       digital <br className="hidden lg:block" />
