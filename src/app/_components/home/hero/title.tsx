@@ -1,12 +1,9 @@
 export function HomeHeroTitle() {
   return (
-    <h1 className="text-primary leading-none text-[8vw]">
-      We
-      <br />
-      build
-      <br />
-      digital
-      <br />
+    <h1 className="text-center text-[25vw] leading-none text-primary md:text-[20vw] lg:text-left lg:text-[12vw] 2xl:text-[10vw]">
+      We <br className="hidden lg:block" />
+      build <br className="hidden lg:block" />
+      digital <br className="hidden lg:block" />
       <span className="relative whitespace-nowrap">
         <svg
           aria-hidden="true"

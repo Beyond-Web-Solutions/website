@@ -20,7 +20,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="nl-NL">
+    <html lang="nl-NL" className="scroll-smooth">
       <body className={`${poppins.className} antialiased`}>
         <Header />
         {children}
