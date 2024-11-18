@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 import { HomeHero } from "@/app/_components/home/hero/hero";
 import { Services } from "@/app/_components/home/services";
-import { HomeStats } from "./_components/home/stats/stats";
-import { HowWeWork } from "@/app/_components/home/how-we-work/container";
+import { HomeStats } from "./_components/home/stats";
+import { HowWeWork } from "@/app/_components/home/how-we-work";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -18,7 +18,7 @@ export default async function Home() {
       <Services />
       <HomeStats />
       <HowWeWork />
-      <Services />
+      <div className="h-[400vh]" />
     </main>
   );
 }

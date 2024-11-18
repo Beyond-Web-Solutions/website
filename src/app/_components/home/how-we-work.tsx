@@ -84,7 +84,6 @@ export function HowWeWork() {
     offset: ["start start", "end start"],
   });
 
-  useMotionValueEvent(scrollYProgress, "change", (v) => console.log(v));
   const translateX = useTransform(
     scrollYProgress,
     [0, 1],
@@ -92,37 +91,39 @@ export function HowWeWork() {
   );
 
   return (
-    <section
-      ref={ref}
-      className="relative z-10 -mt-8 h-[150vh] overflow-x-clip rounded-tl-3xl rounded-tr-3xl bg-tertiary"
-    >
-      <div className="sticky top-0 mx-auto grid max-w-7xl gap-16 px-6 pb-40 pt-32 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
-          <h2 className="text-6xl text-primary">Onze werkwijze</h2>
-        </div>
-        <motion.div
-          id="carousel"
-          style={{ translateX }}
-          className="flex space-x-4"
-        >
-          {steps.map((service, index) => (
-            <div
-              key={service.label}
-              className="grid w-[640px] gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
-            >
-              <p className="text-sm font-bold text-secondary">0{index + 1}</p>
-              <div className="grid gap-8">
-                <service.icon className="size-16 stroke-1" />
-                <div className="grid gap-4">
-                  <p className="text-3xl font-extrabold xl:text-2xl">
-                    {service.label}
-                  </p>
-                  <p className="!text-primary/70">{service.description}</p>
+    <section className="relative h-[150vh] overflow-x-clip" ref={ref}>
+      <div className="sticky top-0 z-10 -mt-8 rounded-tl-3xl rounded-tr-3xl bg-tertiary">
+        <div className="mx-auto grid max-w-7xl gap-16 px-6 pb-40 pt-32 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            <h2 className="max-w-full break-words text-5xl md:text-6xl">
+              Onze <br className="block md:hidden" />
+              werkwijze
+            </h2>
+          </div>
+          <motion.div
+            id="carousel"
+            style={{ translateX }}
+            className="flex space-x-4"
+          >
+            {steps.map((service, index) => (
+              <div
+                key={service.label}
+                className="grid w-[640px] gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
+              >
+                <p className="text-sm font-bold text-secondary">0{index + 1}</p>
+                <div className="grid gap-8">
+                  <service.icon className="size-16 stroke-1" />
+                  <div className="grid gap-4">
+                    <p className="text-3xl font-extrabold xl:text-2xl">
+                      {service.label}
+                    </p>
+                    <p className="!text-primary/70">{service.description}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </motion.div>
+            ))}
+          </motion.div>
+        </div>
       </div>
     </section>
   );

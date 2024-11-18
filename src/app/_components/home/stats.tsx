@@ -2,7 +2,7 @@ export function HomeStats() {
   return (
     <section className="z-10 -mt-8 w-full rounded-tl-3xl rounded-tr-3xl bg-secondary text-primary">
       <div className="mx-auto grid max-w-7xl px-6 py-36 lg:px-8">
-        <h2 className="text-center text-6xl text-primary lg:w-2/3 lg:text-left">
+        <h2 className="text-center text-5xl text-primary md:text-6xl lg:w-2/3 lg:text-left">
           Een goede webapplicatie bouwen is een uitdaging, maar wij hebben er
           dit jaar meer dan 5 gemaakt.
         </h2>
