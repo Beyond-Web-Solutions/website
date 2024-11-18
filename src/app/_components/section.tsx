@@ -19,7 +19,7 @@ export function Section({
   return (
     <section
       id={id}
-      className={cn("w-full rounded-tl-3xl rounded-tr-3xl", className)}
+      className={cn("z-50 w-full rounded-tl-3xl rounded-tr-3xl", className)}
     >
       <div className="mx-auto grid max-w-7xl gap-16 px-6 pb-40 pt-32 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2">
