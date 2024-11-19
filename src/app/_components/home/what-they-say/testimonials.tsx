@@ -26,9 +26,8 @@ export function Testimonials() {
 
           <div className="grid gap-6">
             <p className="text-2xl text-primary/80">
-              Beyond Web Solutions leverde een robuuste webapplicatie die
-              perfect aansluit bij onze behoeften. Heldere communicatie en
-              topkwaliteit!
+              Beyond Web Solutions leverde een goede webapplicatie die perfect
+              aansluit bij onze behoeften. Heldere communicatie en topkwaliteit!
             </p>
             <div className="flex items-center justify-between">
               <div className="grid flex-1 [&>p]:leading-tight">
@@ -50,9 +49,8 @@ export function Testimonials() {
 
           <div className="grid gap-4">
             <p className="text-2xl text-primary/80">
-              Beyond Web Solutions leverde een robuuste webapplicatie die
-              perfect aansluit bij onze behoeften. Heldere communicatie en
-              topkwaliteit!
+              Beyond Web Solutions leverde een goede webapplicatie die perfect
+              aansluit bij onze behoeften. Heldere communicatie en topkwaliteit!
             </p>
             <div className="flex items-center justify-between">
               <div className="grid flex-1 [&>p]:leading-tight">
