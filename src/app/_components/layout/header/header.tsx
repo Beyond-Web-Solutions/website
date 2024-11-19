@@ -3,7 +3,7 @@ import { HeaderWrapper } from "@/app/_components/layout/header/wrapper";
 export function Header() {
   const items = [
     { url: "#services", label: "Diensten" },
-    { url: "#projects", label: "Projecten" },
+    { url: "#how-we-work", label: "Werkwijze" },
     { url: "#about", label: "Over ons" },
   ];
 

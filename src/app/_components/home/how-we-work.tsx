@@ -1,8 +1,4 @@
-"use client";
-
-import { motion, useScroll, useTransform } from "framer-motion";
 import {
-  CalendarDaysIcon,
   CodeIcon,
   FileSearchIcon,
   HandshakeIcon,
@@ -12,8 +8,8 @@ import {
   SettingsIcon,
   TestTubeIcon,
 } from "lucide-react";
-import { ElementRef, useRef } from "react";
 import { Section } from "@/app/_components/section";
+import { BlurFade } from "@/_components/animations/blur-fade";
 
 const steps = [
   {
@@ -25,14 +21,8 @@ const steps = [
   {
     label: "Behoeftenanalyse",
     description:
-      "Alle benodigde functionaliteiten worden in kaart gebracht en vastgelegd in een helder Software Requirements Specification (SRS).",
+      "Alle benodigde functionaliteiten worden in kaart gebracht en vastgelegd in een Software Requirements Specification (SRS).",
     icon: FileSearchIcon,
-  },
-  {
-    label: "Planning",
-    description:
-      "Op basis van de eisen wordt een realistisch plan gemaakt, inclusief een tijdlijn en projectfasen.",
-    icon: CalendarDaysIcon,
   },
   {
     label: "UI/UX Ontwerp",
@@ -72,64 +62,37 @@ const steps = [
   },
 ];
 
-// TODO; just display the list on mobile no fancy scroll animation
 export function HowWeWork() {
-  const ref = useRef<ElementRef<"section">>(null);
-
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end start"],
-  });
-
-  const translateX = useTransform(
-    scrollYProgress,
-    [0, 1],
-    [0, -((320 + 64 + 16) * steps.length)],
-  );
-
   return (
-    <>
-      <section
-        ref={ref}
-        className="relative -mt-8 hidden h-[100vh] overflow-x-clip rounded-tl-3xl rounded-tr-3xl bg-tertiary lg:block"
-      >
-        <div className="sticky top-0 -mt-8 rounded-tl-3xl rounded-tr-3xl">
-          <div className="mx-auto grid max-w-7xl gap-16 px-6 pb-40 pt-32 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2">
-              <h2 className="max-w-full break-words text-5xl md:text-6xl">
-                Onze <br className="block md:hidden" />
-                werkwijze
-              </h2>
+    <Section
+      id="how-we-work"
+      title="Onze Werkwijze"
+      className="bg-tertiary"
+      titleClassName="text-primary"
+    >
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+        {steps.map((step, index) => (
+          <BlurFade
+            className="z-20 grid w-[320px] max-w-full gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
+            key={step.label}
+            delay={0.2 * index}
+            inView
+          >
+            <p className="text-sm font-bold text-secondary">
+              STAP 0{index + 1}
+            </p>
+            <div className="grid gap-8">
+              <step.icon className="size-16 stroke-1" />
+              <div className="grid gap-4">
+                <p className="text-3xl font-extrabold xl:text-2xl">
+                  {step.label}
+                </p>
+                <p className="!text-primary/70">{step.description}</p>
+              </div>
             </div>
-            <motion.div
-              id="carousel"
-              style={{ translateX }}
-              className="flex space-x-4"
-            >
-              {steps.map((service, index) => (
-                <div
-                  key={service.label}
-                  className="z-20 grid w-[320px] max-w-full gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
-                >
-                  <p className="text-sm font-bold text-secondary">
-                    0{index + 1}
-                  </p>
-                  <div className="grid gap-8">
-                    <service.icon className="size-16 stroke-1" />
-                    <div className="grid gap-4">
-                      <p className="text-3xl font-extrabold xl:text-2xl">
-                        {service.label}
-                      </p>
-                      <p className="!text-primary/70">{service.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </motion.div>
-          </div>
-        </div>
-      </section>
-      <Section id="how-we-work"></Section>
-    </>
+          </BlurFade>
+        ))}
+      </div>
+    </Section>
   );
 }

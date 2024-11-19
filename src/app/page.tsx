@@ -5,6 +5,7 @@ import { HomeStats } from "./_components/home/stats";
 import { HowWeWork } from "@/app/_components/home/how-we-work";
 import { WhatTheySay } from "@/app/_components/home/what-they-say";
 import { Contact } from "@/app/_components/home/contact";
+import { AboutUs } from "@/app/_components/home/about/wrapper";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -21,6 +22,7 @@ export default async function Home() {
       <HomeStats />
       <HowWeWork />
       <WhatTheySay />
+      <AboutUs />
       <Contact />
     </main>
   );

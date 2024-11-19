@@ -5,7 +5,7 @@ export function Contact() {
     <Section
       id="contact"
       title="Neem contact met ons op"
-      className="-mt-8 bg-primary"
+      className="bg-primary"
       titleClassName="text-secondary"
     >
       <></>

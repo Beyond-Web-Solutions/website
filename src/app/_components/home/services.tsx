@@ -1,5 +1,6 @@
 import { CloudIcon, CodeIcon, GlobeIcon, PencilRulerIcon } from "lucide-react";
 import { Section } from "@/app/_components/section";
+import { BlurFade } from "@/_components/animations/blur-fade";
 
 export function Services() {
   const services = [
@@ -38,9 +39,11 @@ export function Services() {
     >
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         {services.map((service, index) => (
-          <div
-            key={service.label}
+          <BlurFade
             className="grid gap-20 rounded-xl bg-secondary/5 p-8"
+            key={service.label}
+            delay={0.2 * index}
+            inView
           >
             <p className="text-sm font-bold text-secondary">0{index + 1}</p>
             <div className="grid gap-8">
@@ -52,7 +55,7 @@ export function Services() {
                 <p className="text-secondary/70">{service.description}</p>
               </div>
             </div>
-          </div>
+          </BlurFade>
         ))}
       </div>
     </Section>

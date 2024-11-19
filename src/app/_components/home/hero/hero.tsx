@@ -13,12 +13,10 @@ export function HomeHero() {
       </div>
       <div className="grid h-1/2 grid-cols-1 lg:grid-cols-2">
         <div />
-        <BlurFade>
-          <p className="text-3xl text-primary md:text-4xl">
-            Beyond Web Solutions is een softwarebedrijf dat maatwerk
-            webapplicaties ontwikkelt, met focus op kwaliteit en innovatie.
-          </p>
-        </BlurFade>
+        <p className="text-3xl text-primary md:text-4xl">
+          Beyond Web Solutions is een softwarebedrijf dat maatwerk
+          webapplicaties ontwikkelt, met focus op kwaliteit en innovatie.
+        </p>
       </div>
     </section>
   );
