@@ -8,10 +8,10 @@ export function CTA() {
       id="cta"
       title="Een project in gedachten?"
       className="bg-tertiary [&>div]:gap-4"
-      titleClassName="text-primary col-span-2 !text-3xl text-center"
+      titleClassName="text-primary col-span-2 !text-2xl md:!text-3xl text-center"
     >
       <div className="grid gap-16">
-        <p className="text-center text-[9vw] leading-none">
+        <p className="text-center text-[20vw] leading-none sm:text-[15vw] md:text-[9vw]">
           Let’s work
           <br />
           together
