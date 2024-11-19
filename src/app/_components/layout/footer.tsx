@@ -15,6 +15,7 @@ export function Footer() {
         />
         <div className="flex items-center justify-center space-x-1">
           <Link
+            aria-label="Beyond Web Solutions | LinkedIn"
             target="_blank"
             className="rounded-full p-4 transition hover:bg-secondary/10"
             href="https://www.linkedin.com/company/beyond-web-solutions-nl"
@@ -22,6 +23,7 @@ export function Footer() {
             <LinkedinIcon className="size-5 text-secondary" />
           </Link>
           <Link
+            aria-label="Beyond Web Solutions | Twitter"
             target="_blank"
             className="rounded-full p-4 transition hover:bg-secondary/10"
             href="https://x.com/beyond_web"
@@ -29,6 +31,7 @@ export function Footer() {
             <TwitterIcon className="size-5 text-secondary" />
           </Link>
           <Link
+            aria-label="Beyond Web Solutions | GitHub"
             target="_blank"
             className="rounded-full p-4 transition hover:bg-secondary/10"
             href="https://github.com/Beyond-Web-Solutions"

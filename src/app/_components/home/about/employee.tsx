@@ -31,6 +31,7 @@ export function Employee(props: Props) {
           <Link
             href={props.linkedIn}
             target="_blank"
+            aria-label="Beyond Web Solutions | LinkedIn"
             className="text-gray-900 ring-gray-300 hover:bg-gray-50 w-full rounded-md bg-white px-3 py-2 text-sm font-semibold shadow-sm ring-1 ring-inset ring-secondary"
           >
             <LinkedinIcon className="mx-auto size-5" />
@@ -39,6 +40,7 @@ export function Employee(props: Props) {
           <Link
             href={props.github}
             target="_blank"
+            aria-label="Beyond Web Solutions | GitHub"
             className="text-gray-900 ring-gray-300 hover:bg-gray-50 w-full rounded-md bg-white px-3 py-2 text-sm font-semibold shadow-sm ring-1 ring-inset ring-secondary"
           >
             <GithubIcon className="mx-auto size-5" />
@@ -46,6 +48,7 @@ export function Employee(props: Props) {
           <Link
             href={props.twitter}
             target="_blank"
+            aria-label="Beyond Web Solutions | Twitter"
             className="text-gray-900 ring-gray-300 hover:bg-gray-50 w-full rounded-md bg-white px-3 py-2 text-sm font-semibold shadow-sm ring-1 ring-inset ring-secondary"
           >
             <TwitterIcon className="mx-auto size-5" />
