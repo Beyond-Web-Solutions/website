@@ -1,6 +1,6 @@
 "use client";
 
-import { SetStateAction, Dispatch, ComponentProps } from "react";
+import { ComponentProps, Dispatch, SetStateAction } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { MenuIcon } from "@/_components/icons/menu-icon";
 import { MoveRight } from "lucide-react";
@@ -17,7 +17,7 @@ export function MobileHeaderNav({ setIsOpen, isOpen, items, cta }: Props) {
   return (
     <Dialog open={isOpen} onClose={setIsOpen} className="lg:hidden">
       <div className="fixed inset-0 z-10" />
-      <DialogPanel className="fixed transition inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <DialogPanel className="sm:ring-gray-900/10 fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 transition sm:max-w-sm sm:ring-1">
         <div className="flex items-center justify-between">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Beyond Web Solutions</span>
@@ -32,21 +32,21 @@ export function MobileHeaderNav({ setIsOpen, isOpen, items, cta }: Props) {
           <button
             type="button"
             onClick={() => setIsOpen((prevState) => !prevState)}
-            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+            className="text-gray-700 -m-2.5 rounded-md p-2.5"
           >
             <span className="sr-only">Close menu</span>
             <MenuIcon aria-hidden="true" isOpen={isOpen} />
           </button>
         </div>
         <div className="mt-6 flow-root">
-          <div className="-my-6 divide-y divide-gray-500/10">
+          <div className="divide-gray-500/10 -my-6 divide-y">
             <div className="space-y-2 py-6">
               {items.map((item) => (
                 <Link
                   key={item.url}
                   href={item.url}
                   onClick={() => setIsOpen(false)}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 text-gray-900 hover:bg-gray-50"
+                  className="text-gray-900 hover:bg-gray-50 -mx-3 block rounded-lg px-3 py-2 text-base/7"
                 >
                   {item.label}
                 </Link>
@@ -56,10 +56,10 @@ export function MobileHeaderNav({ setIsOpen, isOpen, items, cta }: Props) {
               <Link
                 href={cta.url}
                 onClick={() => setIsOpen(false)}
-                className="-mx-3 rounded-lg px-3 py-2.5 text-base/7  text-gray-900 hover:bg-gray-50 flex items-center"
+                className="text-gray-900 hover:bg-gray-50 -mx-3 flex items-center rounded-lg px-3 py-2.5 text-base/7"
               >
                 {cta.label}
-                <MoveRight className="size-4 ml-2" />
+                <MoveRight className="ml-2 size-4" />
               </Link>
             </div>
           </div>

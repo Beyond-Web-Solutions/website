@@ -38,7 +38,7 @@ export function HeaderWrapper({ items, cta }: Props) {
           <button
             type="button"
             onClick={() => setMobileMenuOpen((prevState) => !prevState)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="text-gray-700 -m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
           >
             <span className="sr-only">Open main menu</span>
             <MenuIcon aria-hidden="true" isOpen={isMobileMenuOpen} />
@@ -54,10 +54,10 @@ export function HeaderWrapper({ items, cta }: Props) {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             href={cta.url}
-            className="text-sm/6 text-gray-900 flex items-center"
+            className="text-gray-900 flex items-center text-sm/6"
           >
             {cta.label}
-            <MoveRightIcon className="size-4 ml-2" />
+            <MoveRightIcon className="ml-2 size-4" />
           </Link>
         </div>
       </nav>

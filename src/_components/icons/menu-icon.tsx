@@ -38,7 +38,7 @@ export function MenuIcon({ isOpen }: Props) {
   }, [isOpen]);
 
   return (
-    <div className="cursor-pointer select-none p-2 size-12 hover:bg-accent rounded-md transition-colors duration-200 flex items-center justify-center">
+    <div className="hover:bg-accent flex size-12 cursor-pointer select-none items-center justify-center rounded-md p-2 transition-colors duration-200">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="28"

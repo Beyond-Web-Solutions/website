@@ -1,5 +1,4 @@
 import { HomeHeroTitle } from "@/app/_components/home/hero/title";
-import { BlurFade } from "@/_components/animations/blur-fade";
 import { HomeHeroShapes } from "@/app/_components/home/hero/drawings";
 
 export function HomeHero() {
