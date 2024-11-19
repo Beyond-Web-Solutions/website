@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Maatwerk Webapplicaties | Beyond Web Solutions",
   description:
     "Beyond Web Solutions: Ontwikkeling van maatwerk webapplicaties met focus op kwaliteit en innovatie. Maak impact met robuuste digitale oplossingen op maat.",
+  twitter: {
+    images: [{ url: new URL("https://beyond-web.nl/cover.jpg") }],
+  },
   openGraph: {
     siteName: "Beyond Web Solutions",
     url: new URL("https://beyond-web.nl"),
