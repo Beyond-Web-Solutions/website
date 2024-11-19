@@ -9,7 +9,7 @@ import { AboutUs } from "@/app/_components/home/about/wrapper";
 import { CTA } from "@/app/_components/home/cta";
 
 export const metadata: Metadata = {
-  title: "We build digital impact",
+  title: "Maatwerk Webapplicaties | Beyond Web Solutions",
   description:
     "Beyond Web Solutions: Ontwikkeling van maatwerk webapplicaties met focus op kwaliteit en innovatie. Maak impact met robuuste digitale oplossingen op maat.",
 };

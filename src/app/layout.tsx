@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | Beyond Web Solutions",
     default: "Beyond Web Solutions", // a default is required when creating a template
   },
-  // metadataBase: new URL("https://beyond-web.nl"),
+  metadataBase: new URL("https://beyond-web.nl"),
 };
 
 export default async function RootLayout({
