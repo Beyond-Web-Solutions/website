@@ -1,6 +1,6 @@
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
 
 export function Footer() {
   return (

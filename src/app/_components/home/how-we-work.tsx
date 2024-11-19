@@ -84,7 +84,7 @@ export function HowWeWork() {
             <div className="grid gap-8">
               <step.icon className="size-16 stroke-1" />
               <div className="grid gap-4">
-                <p className="break-all text-3xl font-extrabold xl:text-2xl">
+                <p className="text-3xl font-extrabold xl:text-2xl">
                   {step.label}
                 </p>
                 <p className="!text-primary/70">{step.description}</p>
