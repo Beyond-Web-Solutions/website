@@ -87,7 +87,7 @@ export function HowWeWork() {
                 <p className="text-3xl font-extrabold xl:text-2xl">
                   {step.label}
                 </p>
-                <p className="!text-primary/70">{step.description}</p>
+                <p className="!text-primary/85">{step.description}</p>
               </div>
             </div>
           </BlurFade>
