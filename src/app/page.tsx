@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Beyond Web Solutions",
     url: new URL("https://beyond-web.nl"),
+    locale: "nl-NL",
+    type: "website",
+    images: [{ url: new URL("https://beyond-web.nl/cover.jpg") }],
   },
 };
 
