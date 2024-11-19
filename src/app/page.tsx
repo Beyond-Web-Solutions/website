@@ -12,14 +12,36 @@ export const metadata: Metadata = {
   description:
     "Beyond Web Solutions: Ontwikkeling van maatwerk webapplicaties met focus op kwaliteit en innovatie. Maak impact met robuuste digitale oplossingen op maat.",
   twitter: {
-    images: [{ url: new URL("https://beyond-web.nl/cover.jpg") }],
+    images: [
+      {
+        url: new URL("https://beyond-web.nl/open-graph/big.jpg"),
+        width: 2460,
+        height: 1110,
+      },
+      {
+        url: new URL("https://beyond-web.nl/open-graph/small.jpeg"),
+        width: 352,
+        height: 352,
+      },
+    ],
   },
   openGraph: {
     siteName: "Beyond Web Solutions",
     url: new URL("https://beyond-web.nl"),
     locale: "nl-NL",
     type: "website",
-    images: [{ url: new URL("https://beyond-web.nl/cover.jpg") }],
+    images: [
+      {
+        url: new URL("https://beyond-web.nl/open-graph/big.jpg"),
+        width: 2460,
+        height: 1110,
+      },
+      {
+        url: new URL("https://beyond-web.nl/open-graph/small.jpeg"),
+        width: 352,
+        height: 352,
+      },
+    ],
   },
 };
 
