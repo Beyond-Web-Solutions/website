@@ -8,12 +8,11 @@ import { Footer } from "@/app/_components/home/footer";
 import { AboutUs } from "@/app/_components/home/about/wrapper";
 import { CTA } from "@/app/_components/home/cta";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "",
-    description: "",
-  };
-}
+export const metadata: Metadata = {
+  title: "We build digital impact",
+  description:
+    "Beyond Web Solutions: Ontwikkeling van maatwerk webapplicaties met focus op kwaliteit en innovatie. Maak impact met robuuste digitale oplossingen op maat.",
+};
 
 export default async function Home() {
   return (
