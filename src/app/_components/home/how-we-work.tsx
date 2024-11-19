@@ -73,7 +73,7 @@ export function HowWeWork() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         {steps.map((step, index) => (
           <BlurFade
-            className="z-20 grid w-[320px] max-w-full gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
+            className="grid gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
             key={step.label}
             delay={0.2 * index}
             inView

@@ -24,7 +24,7 @@ export function Testimonials() {
         <div className="grid gap-6 pb-6 lg:pb-0 lg:pr-6">
           <QuoteIcon className="size-12 text-quaternary" />
 
-          <div className="grid gap-4">
+          <div className="grid gap-6">
             <p className="text-2xl text-primary/80">
               Beyond Web Solutions leverde een robuuste webapplicatie die
               perfect aansluit bij onze behoeften. Heldere communicatie en

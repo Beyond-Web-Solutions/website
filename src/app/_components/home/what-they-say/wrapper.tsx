@@ -1,5 +1,5 @@
 import { Section } from "@/app/_components/section";
-import { Testimonials } from "@/app/_components/home/about/testimonials";
+import { Testimonials } from "@/app/_components/home/what-they-say/testimonials";
 
 export function WhatTheySay() {
   return (
