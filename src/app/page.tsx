@@ -15,13 +15,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: new URL("https://beyond-web.nl/open-graph/big.jpg"),
-        width: 2460,
-        height: 1110,
-      },
-      {
-        url: new URL("https://beyond-web.nl/open-graph/small.jpeg"),
-        width: 352,
-        height: 352,
       },
     ],
   },
@@ -33,13 +26,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: new URL("https://beyond-web.nl/open-graph/big.jpg"),
-        width: 2460,
-        height: 1110,
-      },
-      {
-        url: new URL("https://beyond-web.nl/open-graph/small.jpeg"),
-        width: 352,
-        height: 352,
       },
     ],
   },

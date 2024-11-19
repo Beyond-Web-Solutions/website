@@ -37,7 +37,7 @@ export function Testimonials() {
               <Image
                 src="/testimonials/prometech.png"
                 alt="Prometech | Logo"
-                className="max-h-[2.5em] w-auto max-w-full object-cover"
+                className="hidden max-h-[2.5em] w-auto max-w-full object-cover lg:block"
                 width={150}
                 height={100}
               />
@@ -60,7 +60,7 @@ export function Testimonials() {
               <Image
                 src="/testimonials/prometech.png"
                 alt="Prometech | Logo"
-                className="max-h-[2.5em] w-auto max-w-full object-cover"
+                className="hidden max-h-[2.5em] w-auto max-w-full object-cover lg:block"
                 width={150}
                 height={100}
               />
