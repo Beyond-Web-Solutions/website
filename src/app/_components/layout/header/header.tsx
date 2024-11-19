@@ -8,6 +8,6 @@ export function Header() {
   ];
 
   return (
-    <HeaderWrapper items={items} cta={{ url: "#contact", label: "Contact" }} />
+    <HeaderWrapper items={items} cta={{ url: "#cta", label: "Contact" }} />
   );
 }

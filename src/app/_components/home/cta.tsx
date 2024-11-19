@@ -21,7 +21,7 @@ export function CTA() {
           target="_blank"
           className="mx-auto flex w-fit items-center rounded-full bg-primary/95 px-6 py-4 font-semibold text-secondary shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
         >
-          Plan een gratis kennismaking
+          Plan een kennismaking
           <ExternalLinkIcon className="ml-2 size-4" />
         </Link>
       </div>

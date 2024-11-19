@@ -16,7 +16,7 @@ export function Testimonials() {
           </div>
           <p className="text-sm text-primary/70">(+5 reviews)</p>
         </div>
-        <p className="text-3xl font-semibold">
+        <p className="break-all text-3xl font-semibold">
           Ondersteunt bedrijven met betrouwbare webapplicaties
         </p>
       </div>

@@ -28,8 +28,8 @@ export function HeaderWrapper({ items, cta }: Props) {
             <Image
               className="h-8 w-auto"
               src="/logo/dark.svg"
-              width={150}
-              height={40}
+              width={190}
+              height={32}
               alt="Beyond Web Solutions | Logo"
             />
           </Link>
