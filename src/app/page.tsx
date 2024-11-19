@@ -1,11 +1,12 @@
 import { Metadata } from "next";
 import { HomeHero } from "@/app/_components/home/hero/hero";
 import { Services } from "@/app/_components/home/services";
-import { HomeStats } from "./_components/home/stats";
+import { HomeBlockQuote } from "./_components/home/quote";
 import { HowWeWork } from "@/app/_components/home/how-we-work";
 import { WhatTheySay } from "@/app/_components/home/what-they-say/wrapper";
 import { Contact } from "@/app/_components/home/contact";
 import { AboutUs } from "@/app/_components/home/about/wrapper";
+import { CTA } from "@/app/_components/home/cta";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -19,10 +20,11 @@ export default async function Home() {
     <main>
       <HomeHero />
       <Services />
-      <HomeStats />
+      <HomeBlockQuote />
       <HowWeWork />
       <WhatTheySay />
       <AboutUs />
+      <CTA />
       <Contact />
     </main>
   );
