@@ -8,6 +8,9 @@ export function AboutUs() {
       name: "Mees Egberts",
       role: "Eigenaar & Programmeur",
       linkedIn: "https://www.linkedin.com/in/mees-egberts",
+      instagram: "https://www.instagram.com/mees.egberts",
+      twitter: "https://www.twitter.com/meesegberts",
+      github: "https://github.com/MeesEgberts",
     },
   ];
 
