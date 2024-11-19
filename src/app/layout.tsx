@@ -2,7 +2,9 @@ import React from "react";
 import { Poppins } from "next/font/google";
 import { Metadata } from "next";
 import { Header } from "@/app/_components/layout/header/header";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
+import { Footer } from "@/app/_components/layout/footer";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
@@ -24,6 +26,8 @@ export default async function RootLayout({
       <body className={`${poppins.className} antialiased`}>
         <Header />
         {children}
+        <Footer />
+        <Analytics />
       </body>
     </html>
   );

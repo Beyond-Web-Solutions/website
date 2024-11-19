@@ -4,7 +4,6 @@ import { Services } from "@/app/_components/home/services";
 import { HomeBlockQuote } from "./_components/home/quote";
 import { HowWeWork } from "@/app/_components/home/how-we-work";
 import { WhatTheySay } from "@/app/_components/home/what-they-say/wrapper";
-import { Footer } from "@/app/_components/home/footer";
 import { AboutUs } from "@/app/_components/home/about/wrapper";
 import { CTA } from "@/app/_components/home/cta";
 
@@ -24,7 +23,6 @@ export default async function Home() {
       <WhatTheySay />
       <AboutUs />
       <CTA />
-      <Footer />
     </main>
   );
 }
