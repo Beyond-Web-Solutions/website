@@ -21,18 +21,15 @@ export function Testimonials() {
         </p>
       </div>
       <div className="grid grid-cols-1 divide-y divide-tertiary lg:col-span-2 lg:grid-cols-2 lg:divide-x lg:divide-y-0">
-        <div className="grid gap-6 pb-6 lg:pb-0 lg:pr-6">
+        <div className="col-span-2 grid gap-6 pb-6 lg:pb-0 lg:pr-6">
           <QuoteIcon className="size-12 text-quaternary" />
 
           <div className="grid gap-6">
-            <p className="text-2xl text-primary/80">
-              Beyond Web Solutions leverde een goede webapplicatie die perfect
-              aansluit bij onze behoeften. Heldere communicatie en topkwaliteit!
-            </p>
+            <p className="text-2xl text-primary/80">👍🏻</p>
             <div className="flex items-center justify-between">
               <div className="grid flex-1 [&>p]:leading-tight">
-                <p className="font-bold">Florian Käding</p>
-                <p className="text-sm text-primary/70">Systeem Architect</p>
+                <p className="font-bold">Sebastian Simonsen</p>
+                <p className="text-sm text-primary/70">Project Manager</p>
               </div>
               <Image
                 src="/testimonials/prometech.png"
@@ -44,13 +41,12 @@ export function Testimonials() {
             </div>
           </div>
         </div>
-        <div className="grid gap-6 pt-6 lg:pl-6 lg:pt-0">
+        {/*<div className="grid gap-6 pt-6 lg:pl-6 lg:pt-0">
           <QuoteIcon className="size-12 text-quaternary" />
 
           <div className="grid gap-4">
             <p className="text-2xl text-primary/80">
-              Beyond Web Solutions leverde een goede webapplicatie die perfect
-              aansluit bij onze behoeften. Heldere communicatie en topkwaliteit!
+              Beyond Web Solutions leverde goed werk.
             </p>
             <div className="flex items-center justify-between">
               <div className="grid flex-1 [&>p]:leading-tight">
@@ -66,7 +62,7 @@ export function Testimonials() {
               />
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
