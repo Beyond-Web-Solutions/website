@@ -25,7 +25,11 @@ export function Testimonials() {
           <QuoteIcon className="size-12 text-quaternary" />
 
           <div className="grid gap-6">
-            <p className="text-2xl text-primary/80">👍🏻</p>
+            <p className="text-2xl text-primary/80">
+              Het werk van Mees is van topkwaliteit. Hij kan een compleet
+              systeem leveren volgens jouw specificaties en ondersteuning
+              bieden.
+            </p>
             <div className="flex items-center justify-between">
               <div className="grid flex-1 [&>p]:leading-tight">
                 <p className="font-bold">Sebastian Simonsen</p>
