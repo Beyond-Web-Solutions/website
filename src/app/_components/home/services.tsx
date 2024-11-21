@@ -35,7 +35,7 @@ export function Services() {
       id="services"
       className="bg-primary"
       titleClassName="text-secondary"
-      title="Wat Beyond Web Solutions voor jou kan betekenen."
+      title="Wat Beyond Web Solutions voor jou kan betekenen"
     >
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         {services.map((service, index) => (

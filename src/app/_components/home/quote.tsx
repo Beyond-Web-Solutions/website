@@ -5,7 +5,7 @@ export function HomeBlockQuote() {
   return (
     <Section
       id="stats"
-      title="Een goede webapplicatie bouwen is een uitdaging, maar wij doen het continu."
+      title="Een goede webapplicatie bouwen is een uitdaging, maar wij doen het continu"
       className="bg-secondary text-center"
       titleClassName="text-primary col-span-2 z-10"
     >
