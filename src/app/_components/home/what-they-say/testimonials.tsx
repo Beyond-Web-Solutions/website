@@ -27,8 +27,7 @@ export function Testimonials() {
           <div className="grid gap-6">
             <p className="text-2xl text-primary/80">
               Het werk van Mees is van topkwaliteit. Hij kan een compleet
-              systeem leveren volgens jouw specificaties en ondersteuning
-              bieden.
+              systeem leveren volgens de specificaties en ondersteuning bieden.
             </p>
             <div className="flex items-center justify-between">
               <div className="grid flex-1 [&>p]:leading-tight">
