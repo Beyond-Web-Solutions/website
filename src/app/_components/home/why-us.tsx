@@ -4,7 +4,6 @@ import {
   ShieldCheckIcon,
   UsersIcon,
 } from "lucide-react";
-import { BlurFade } from "@/_components/animations/blur-fade";
 
 export function WhyUs() {
   const usp = [
@@ -47,11 +46,9 @@ export function WhyUs() {
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
           {usp.map((point, index) => (
-            <BlurFade
-              className="grid gap-20 rounded-xl bg-secondary/5 p-8"
+            <div
               key={point.label}
-              delay={0.2 * index}
-              inView
+              className="grid gap-20 rounded-xl bg-secondary/5 p-8"
             >
               <p className="text-sm font-bold text-secondary">0{index + 1}</p>
               <div className="grid gap-8">
@@ -63,7 +60,7 @@ export function WhyUs() {
                   <p className="text-secondary/70">{point.description}</p>
                 </div>
               </div>
-            </BlurFade>
+            </div>
           ))}
         </div>
       </div>

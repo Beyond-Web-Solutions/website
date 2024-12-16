@@ -9,7 +9,6 @@ import {
   TestTubeIcon,
 } from "lucide-react";
 import { Section } from "@/app/_components/section";
-import { BlurFade } from "@/_components/animations/blur-fade";
 
 const steps = [
   {
@@ -72,11 +71,9 @@ export function HowWeWork() {
     >
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         {steps.map((step, index) => (
-          <BlurFade
-            className="grid gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
+          <div
             key={step.label}
-            delay={0.2 * index}
-            inView
+            className="grid gap-20 rounded-xl bg-primary/5 p-8 [&>*]:text-primary"
           >
             <p className="text-sm font-bold text-secondary">
               STAP 0{index + 1}
@@ -90,7 +87,7 @@ export function HowWeWork() {
                 <p className="!text-primary/85">{step.description}</p>
               </div>
             </div>
-          </BlurFade>
+          </div>
         ))}
       </div>
     </Section>
