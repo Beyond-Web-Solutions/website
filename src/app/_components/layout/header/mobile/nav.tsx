@@ -3,7 +3,7 @@
 import { ComponentProps, Dispatch, SetStateAction } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { MenuIcon } from "@/_components/icons/menu-icon";
-import { MoveRight } from "lucide-react";
+import { ExternalLinkIcon } from "lucide-react";
 import { HeaderWrapper } from "@/app/_components/layout/header/wrapper";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,7 +13,7 @@ interface Props extends ComponentProps<typeof HeaderWrapper> {
   setIsOpen: Dispatch<SetStateAction<boolean>>;
 }
 
-export function MobileHeaderNav({ setIsOpen, isOpen, items, cta }: Props) {
+export function MobileHeaderNav({ setIsOpen, isOpen, items }: Props) {
   return (
     <Dialog open={isOpen} onClose={setIsOpen} className="lg:hidden">
       <div className="fixed inset-0 z-10" />
@@ -53,14 +53,15 @@ export function MobileHeaderNav({ setIsOpen, isOpen, items, cta }: Props) {
               ))}
             </div>
             <div className="py-6">
-              <Link
-                href={cta.url}
+              <a
+                href="https://calendar.app.google/AMCUDvoELqb9ivx57"
+                target="_blank"
                 onClick={() => setIsOpen(false)}
                 className="text-gray-900 hover:bg-gray-50 -mx-3 flex items-center rounded-lg px-3 py-2.5 text-base/7"
               >
-                {cta.label}
-                <MoveRight className="ml-2 size-4" />
-              </Link>
+                Contact
+                <ExternalLinkIcon className="ml-2 size-4" />
+              </a>
             </div>
           </div>
         </div>

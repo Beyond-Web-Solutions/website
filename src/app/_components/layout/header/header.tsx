@@ -2,12 +2,10 @@ import { HeaderWrapper } from "@/app/_components/layout/header/wrapper";
 
 export function Header() {
   const items = [
-    { url: "#services", label: "Diensten" },
-    { url: "#how-we-work", label: "Werkwijze" },
-    { url: "#about", label: "Over ons" },
+    { url: "#why-us", label: "Waarom?" },
+    { url: "#how-we-work", label: "Hoe?" },
+    { url: "#about", label: "Wie?" },
   ];
 
-  return (
-    <HeaderWrapper items={items} cta={{ url: "#cta", label: "Contact" }} />
-  );
+  return <HeaderWrapper items={items} />;
 }
