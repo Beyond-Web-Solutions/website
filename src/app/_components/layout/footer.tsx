@@ -40,6 +40,11 @@ export function Footer() {
           </Link>
         </div>
       </div>
+      <div className="flex w-full justify-center pb-8">
+        <Link href="/privacy" className="text-xs italic text-white">
+          Privacy Policy
+        </Link>
+      </div>
     </footer>
   );
 }
