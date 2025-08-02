@@ -1,34 +1,18 @@
-import React from "react";
-import { Poppins } from "next/font/google";
-import { Metadata } from "next";
-import { Header } from "@/app/_components/layout/header/header";
-import { Analytics } from "@vercel/analytics/react";
-import "./globals.css";
-import { Footer } from "@/app/_components/layout/footer";
+import { type Metadata } from 'next'
 
-const poppins = Poppins({ weight: "400", subsets: ["latin"] });
+import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Beyond Web Solutions",
-    default: "Beyond Web Solutions", // a default is required when creating a template
+    template: '%s - Studio',
+    default: 'Studio - Award winning developer studio based in Denmark',
   },
-  metadataBase: new URL("https://beyond-web.nl"),
-};
+}
 
-export default async function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="nl-NL" className="scroll-smooth">
-      <body className={`${poppins.className} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
-        <Analytics />
-      </body>
+    <html lang="en" className="h-full bg-neutral-950 text-base antialiased">
+      <body className="flex min-h-full flex-col">{children}</body>
     </html>
-  );
+  )
 }
