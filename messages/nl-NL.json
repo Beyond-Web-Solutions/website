@@ -6,18 +6,34 @@
       "header": {
         "home": "Home",
         "contact-us": "Neem contact op",
-        "toggle-navigation": "Menu tonen/verbergen"
+        "toggle-navigation": "Menu tonen/verbergen",
+        "nav": {
+          "our-work": "Projecten",
+          "about-us": "Over ons",
+          "our-process": "Ons proces",
+          "blog": "Blog"
+        }
       },
       "metadata": {
         "title": "",
         "description": ""
       }
+    },
+    "offices": {
+      "our-offices": "Onze kantoren"
     }
   },
   "home": {
     "metadata": {
       "title": "",
       "description": ""
+    },
+    "hero": {
+      "title": "Wij brengen uw grootste digitale plannen tot leven",
+      "subtitle": "Wij realiseren uw visie door een hoogwaardige maatwerk applicatie te ontwikkelen, waarin we de nieuwste technologieën en slimme AI-oplossingen integreren voor een duurzame voorsprong."
+    },
+    "clients": {
+      "title": "Zij vertrouwden ons hun digitale toekomst toe"
     }
   }
 }

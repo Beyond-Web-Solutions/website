@@ -133,15 +133,17 @@ function NavigationItem({
 }
 
 function Navigation() {
+  const t = useTranslations('common.root-layout.header.nav')
+
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
+        <NavigationItem href="/work">{t('our-work')}</NavigationItem>
+        <NavigationItem href="/about">{t('about-us')}</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        <NavigationItem href="/process">{t('our-process')}</NavigationItem>
+        <NavigationItem href="/blog">{t('blog')}</NavigationItem>
       </NavigationRow>
     </nav>
   )
@@ -155,6 +157,8 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
   let closeRef = useRef<React.ElementRef<'button'>>(null)
   let navRef = useRef<React.ElementRef<'div'>>(null)
   let shouldReduceMotion = useReducedMotion()
+
+  const t = useTranslations('common')
 
   useEffect(() => {
     function onClick(event: MouseEvent) {
@@ -229,12 +233,12 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
               />
             </div>
             <Navigation />
-            <div className="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
+            {/*<div className="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pt-10 pb-16 sm:grid-cols-2 sm:pt-16">
                   <div>
                     <h2 className="font-display text-base font-semibold text-white">
-                      Our offices
+                      {t('offices.our-offices')}
                     </h2>
                     <Offices
                       invert
@@ -249,7 +253,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                   </div>
                 </div>
               </Container>
-            </div>
+            </div>*/}
           </motion.div>
         </motion.div>
       </header>
