@@ -12,7 +12,6 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion'
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
@@ -20,7 +19,7 @@ import { GridPattern } from '@/components/GridPattern'
 import { Logo, Logomark } from '@/components/logo/Logo'
 import { Offices } from '@/components/Offices'
 import { SocialMedia } from '@/components/SocialMedia'
-import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 const RootLayoutContext = createContext<{
   logoHovered: boolean
@@ -59,14 +58,15 @@ function Header({
   toggleRef: React.RefObject<HTMLButtonElement | null>
   invert?: boolean
 }) {
-  let { logoHovered, setLogoHovered } = useContext(RootLayoutContext)!
+  const t = useTranslations('common.root-layout.header')
+  let { setLogoHovered } = useContext(RootLayoutContext)!
 
   return (
     <Container>
       <div className="flex items-center justify-between">
         <Link
           href="/"
-          aria-label="Home"
+          aria-label={t('home')}
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
@@ -75,7 +75,7 @@ function Header({
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>
-            Contact us
+            {t('contact-us')}
           </Button>
           <button
             ref={toggleRef}
@@ -87,7 +87,7 @@ function Header({
               'group -m-2.5 rounded-full p-2.5 transition',
               invert ? 'hover:bg-white/10' : 'hover:bg-neutral-950/10',
             )}
-            aria-label="Toggle navigation"
+            aria-label={t('toggle-navigation')}
           >
             <Icon
               className={clsx(

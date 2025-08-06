@@ -9,7 +9,4 @@ export const routing = defineRouting({
       'nl-NL': '/nl',
     },
   },
-  pathnames: {
-    '/': '/',
-  },
 })

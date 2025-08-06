@@ -3,6 +3,11 @@
     "organization-name": "Beyond Web Solutions",
     "organization-name-short": "Beyond",
     "root-layout": {
+      "header": {
+        "home": "Home",
+        "contact-us": "Neem contact op",
+        "toggle-navigation": "Menu tonen/verbergen"
+      },
       "metadata": {
         "title": "",
         "description": ""
