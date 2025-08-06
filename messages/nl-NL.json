@@ -1,3 +1,18 @@
 {
-
+  "common": {
+    "organization-name": "Beyond Web Solutions",
+    "organization-name-short": "Beyond",
+    "root-layout": {
+      "metadata": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "home": {
+    "metadata": {
+      "title": "",
+      "description": ""
+    }
+  }
 }

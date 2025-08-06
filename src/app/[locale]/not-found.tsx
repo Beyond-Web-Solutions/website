@@ -17,7 +17,7 @@ export default function NotFound() {
           Sorry, we couldn’t find the page you’re looking for.
         </p>
         <Link
-          href="/"
+          href="/public"
           className="mt-4 text-sm font-semibold text-neutral-950 transition hover:text-neutral-700"
         >
           Go to the home page

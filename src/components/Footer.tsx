@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
-import { Logo } from '@/components/Logo'
+import { Logo } from '@/components/logo/Logo'
 import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
