@@ -10,11 +10,16 @@ import { remarkRehypeWrap } from 'remark-rehype-wrap'
 import rehypeUnwrapImages from 'rehype-unwrap-images'
 import shiki from 'shiki'
 import { unifiedConditional } from 'unified-conditional'
+import createNextIntlPlugin from 'next-intl/plugin'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
 }
+
+const withNextIntl = createNextIntlPlugin({
+  requestConfig: './src/lib/i18n/request.ts',
+})
 
 function remarkMDXLayout(source, metaName) {
   let parser = Parser.extend(jsx())
@@ -79,5 +84,5 @@ export default async function config() {
     },
   })
 
-  return withMDX(nextConfig)
+  return withNextIntl(withMDX(nextConfig))
 }

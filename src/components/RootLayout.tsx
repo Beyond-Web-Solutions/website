@@ -215,7 +215,8 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
           style={{ height: expanded ? 'auto' : '0.5rem' }}
           className="relative z-50 overflow-hidden bg-neutral-950 pt-2"
           aria-hidden={expanded ? undefined : 'true'}
-          inert={expanded}
+          // @ts-ignore (https://github.com/facebook/react/issues/17157)
+          inert={expanded ? '' : undefined}
         >
           <motion.div layout className="bg-neutral-800">
             <div ref={navRef} className="bg-neutral-950 pt-14 pb-16">
