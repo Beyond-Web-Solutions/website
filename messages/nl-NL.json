@@ -68,5 +68,51 @@
         }
       }
     }
+  },
+  "about": {
+    "metadata": {
+      "title": "",
+      "description": ""
+    },
+    "intro": {
+      "title": "Gedreven door technologie, gericht op uw succes",
+      "subtitle": "Wij combineren uw visie met onze technologische expertise om uw digitale ambities te realiseren.",
+      "paragraphs": {
+        "1": "Onze missie is de kloof te dichten tussen de potentie van moderne technologie en de standaardoplossingen die de markt domineren. Wij geloven dat ambitieuze bedrijven een partner verdienen die hun visie vertaalt naar een concrete, digitale voorsprong.",
+        "2": "Ons team deelt een passie voor kwaliteit. We zijn pas tevreden als een oplossing niet alleen technisch uitmuntend is, maar ook elegant en toekomstbestendig. Deze focus is de motor achter het succes van onze klanten."
+      }
+    },
+    "stats": {
+      "1": "Jaar ervaring",
+      "2": "Projecten afgerond",
+      "3": "Gemiddelde PageSpeed score"
+    },
+    "culture": {
+      "eyebrow": "Onze principes",
+      "title": "De fundering van elk succesvol project.",
+      "subtitle": "Dit zijn de drie kernprincipes die ons werk definiëren en de kwaliteit voor onze klanten garanderen.",
+
+      "values": {
+        "quality": {
+          "title": "Kwaliteit boven alles",
+          "description": "Wij doen geen concessies aan kwaliteit. Onze oplossingen zijn robuust, schaalbaar en veilig, gebouwd op een fundament van schone code."
+        },
+        "innovation": {
+          "title": "Innovatie als instrument",
+          "description": "Technologie is voor ons een strategisch instrument, geen doel op zich. We zetten AI en cutting-edge oplossingen in om u een concrete, meetbare voorsprong te geven."
+        },
+        "transparency": {
+          "title": "Transparantie in alles",
+          "description": "Een succesvol partnerschap rust op heldere communicatie. U bent altijd op de hoogte van de voortgang, de volgende stappen en de 'waarom' achter onze keuzes."
+        }
+      }
+    },
+    "team": {
+      "team": "Team"
+    },
+    "blog": {
+      "title": "De laatste inzichten en artikelen.",
+      "subtitle": "Lees onze kijk op de wereld van webontwikkeling en AI. We delen regelmatig onze expertise om u te helpen de juiste strategische keuzes te maken."
+    }
   }
 }

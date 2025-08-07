@@ -5,6 +5,8 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { routing } from '@/lib/i18n/routing'
 import { notFound } from 'next/navigation'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/next'
 import Head from 'next/head'
 
 export function generateStaticParams() {
@@ -47,6 +49,8 @@ export default async function Layout({ children, params }: LayoutProps) {
       </Head>
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
