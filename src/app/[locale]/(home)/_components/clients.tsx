@@ -1,11 +1,15 @@
 import { useTranslations } from 'next-intl'
 import { Container } from '@/components/Container'
 import UmlChatLight from '@/images/clients/uml-chat/logo-light.svg'
+import PrometechLight from '@/images/clients/prometech/logo-light.svg'
 
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import Image from 'next/image'
 
-const clients = [['UML.chat', UmlChatLight]]
+const clients = [
+  ['UML.chat', UmlChatLight],
+  ['Prometech', PrometechLight],
+]
 
 export function HomePageClients() {
   const t = useTranslations('home.clients')

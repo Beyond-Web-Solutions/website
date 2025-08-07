@@ -21,12 +21,16 @@
     },
     "offices": {
       "our-offices": "Onze kantoren"
+    },
+    "contact-cta": {
+      "title": "Laten we samen uw idee vormgeven.",
+      "button": "Start het gesprek"
     }
   },
   "home": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Uw Digitale Voorsprong Begint Hier",
+      "description": "Laat uw concurrentie achter u. Wij realiseren uw digitale ambities met cutting-edge maatwerk applicaties en slimme, geïntegreerde AI-oplossingen."
     },
     "hero": {
       "title": "Wij brengen uw grootste digitale plannen tot leven",
@@ -34,6 +38,35 @@
     },
     "clients": {
       "title": "Zij vertrouwden ons hun digitale toekomst toe"
+    },
+    "case-studies": {
+      "title": "Waar innovatie en ambitie samenkomen",
+      "subtitle": "Dit is het concrete bewijs van hoe onze technologische expertise de visie van onze klanten omzet in meetbaar succes en een beslissende voorsprong.",
+      "case-study": "Case study"
+    },
+    "testimonial": "Het werk van Beyond Web Solutions is van topkwaliteit. Zij kunnen een compleet systeem leveren volgens de specificaties en ondersteuning bieden.",
+    "services": {
+      "eyebrow": "Diensten",
+      "title": "De juiste oplossing voor elke digitale vraag",
+      "subtitle": "Van strategisch advies en maatwerk webdevelopment tot AI-integraties; dit zijn de componenten waarmee we uw digitale ambities realiseren.",
+      "list": {
+        "web-development": {
+          "title": "Maatwerk Applicaties",
+          "description": "Digitale oplossingen die naadloos aansluiten op uw bedrijfsprocessen. Gebouwd voor snelheid, schaalbaarheid en een feilloze gebruikerservaring."
+        },
+        "ai-integration": {
+          "title": "AI Integraties",
+          "description": "Wij verrijken uw applicatie met slimme AI of lossen specifieke AI-vraagstukken op. Zo zetten we complexe uitdagingen om in een strategische voorsprong."
+        },
+        "consultancy": {
+          "title": "Strategisch Advies",
+          "description": "Als uw technologische partner vertalen we uw bedrijfsdoelen naar een concrete, digitale roadmap. Zo maakt u de juiste keuzes voor de toekomst."
+        },
+        "e-commerce": {
+          "title": "E-commerce Oplossingen",
+          "description": "Meer dan een webshop: een compleet verkoopplatform. We integreren uw voorraad- en kassasystemen voor een gestroomlijnde operatie en maximale omzet."
+        }
+      }
     }
   }
 }
