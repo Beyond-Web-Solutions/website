@@ -37,7 +37,7 @@ export function Testimonial({
               <Image
                 src={client.logo}
                 alt={client.name}
-                className="h-16 w-auto"
+                className="h-10 w-auto"
                 unoptimized
               />
             </figcaption>

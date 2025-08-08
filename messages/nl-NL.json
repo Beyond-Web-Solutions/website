@@ -71,8 +71,8 @@
   },
   "about": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Onze Missie & Visie",
+      "description": "Ontdek de filosofie achter Beyond Web Solutions. Leer hoe onze passie voor kwaliteit, innovatie en transparantie de basis vormt van elk succesvol project."
     },
     "intro": {
       "title": "Gedreven door technologie, gericht op uw succes",
@@ -114,5 +114,19 @@
       "title": "De laatste inzichten en artikelen.",
       "subtitle": "Lees onze kijk op de wereld van webontwikkeling en AI. We delen regelmatig onze expertise om u te helpen de juiste strategische keuzes te maken."
     }
+  },
+  "work": {
+    "metadata": {
+      "title": "",
+      "description": ""
+    },
+    "intro": {
+      "eyebrow": "Onze projecten",
+      "title": "Digitale oplossingen die ambities tot leven brengen",
+      "subtitle": "Elk project is een samenwerking waarin we visie vertalen naar een functionele, schaalbare en toekomstbestendige oplossing. Ontdek hoe wij ideeën omzetten in digitale realiteit."
+    },
+    "learn-more": "Meer informatie",
+    "testimonial": "Beyond Web Solutions heeft onze visie omgezet in een krachtige, gebruiksvriendelijke applicatie. Hun expertise in AI en oog voor detail hebben ervoor gezorgd dat UML.chat vanaf dag één impact maakt.",
+    "clients": "U bevindt zich in goed gezelschap"
   }
 }
