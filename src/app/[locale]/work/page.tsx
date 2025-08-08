@@ -25,11 +25,23 @@ import { WorkPageIntro } from '@/app/[locale]/work/_components/intro'
 import { WorkPageCaseStudies } from '@/app/[locale]/work/_components/case-studies'
 import { WorkPageTestimonial } from '@/app/[locale]/work/_components/testimonial'
 import { WorkPageClients } from '@/app/[locale]/work/_components/clients'
+import { PageProps } from '@/lib/types/props'
+import { getTranslations } from 'next-intl/server'
 
-export const metadata: Metadata = {
-  title: 'Our Work',
-  description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params
+
+  const t = await getTranslations({
+    locale,
+    namespace: 'work.metadata',
+  })
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  }
 }
 
 export default async function Work() {

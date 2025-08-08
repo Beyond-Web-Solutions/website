@@ -25,7 +25,10 @@
     "contact-cta": {
       "title": "Laten we samen uw idee vormgeven.",
       "button": "Start het gesprek"
-    }
+    },
+"symbols": {
+  "slash": "/"
+}
   },
   "home": {
     "metadata": {
@@ -91,7 +94,6 @@
       "eyebrow": "Onze principes",
       "title": "De fundering van elk succesvol project.",
       "subtitle": "Dit zijn de drie kernprincipes die ons werk definiëren en de kwaliteit voor onze klanten garanderen.",
-
       "values": {
         "quality": {
           "title": "Kwaliteit boven alles",
@@ -117,8 +119,8 @@
   },
   "work": {
     "metadata": {
-      "title": "",
-      "description": ""
+      "title": "Bedrijven die met ons bouwen aan de toekomst",
+      "description": "Wij werken samen met vooruitstrevende organisaties om digitale ambities te realiseren. Ontdek wie ons hun vertrouwen geeft."
     },
     "intro": {
       "eyebrow": "Onze projecten",
@@ -128,5 +130,95 @@
     "learn-more": "Meer informatie",
     "testimonial": "Beyond Web Solutions heeft onze visie omgezet in een krachtige, gebruiksvriendelijke applicatie. Hun expertise in AI en oog voor detail hebben ervoor gezorgd dat UML.chat vanaf dag één impact maakt.",
     "clients": "U bevindt zich in goed gezelschap"
+  },
+  "process": {
+    "metadata": {
+      "title": "Ons proces",
+      "description": "Ontdek hoe wij van idee tot impact werken. Met een helder proces zorgen we voor duidelijke stappen, efficiënte uitvoering en digitale oplossingen die resultaat opleveren."
+    },
+    "intro": {
+      "eyebrow": "Ons proces",
+      "title": "Van eerste idee tot succesvolle oplevering",
+      "description": "Wij werken volgens een helder en gestructureerd proces dat zorgt voor duidelijkheid, efficiëntie en kwaliteit in elke fase van het project."
+    },
+    "idea": {
+      "title": "Van idee",
+      "paragraph-1": "We starten elk project met het begrijpen van uw visie, doelen en uitdagingen. In deze fase luisteren we, stellen we de juiste vragen en analyseren we de context waarin uw organisatie opereert. Zo krijgen we een helder beeld van wat u wilt bereiken en welke digitale oplossing daar het beste bij past.",
+      "paragraph-2": "Door samen te sparren en ideeën te verkennen, vertalen we uw input naar een concreet plan van aanpak. Dit vormt de basis voor een oplossing die niet alleen technisch sterk is, maar ook perfect aansluit op uw bedrijfsdoelen.",
+      "list": {
+        "title": "Onze focus in deze fase",
+        "items": {
+          "1": "Behoeftenanalyse",
+          "2": "Doelgroepanalyse",
+          "3": "Functionele eisen",
+          "4": "Strategie & roadmap"
+        }
+      }
+    },
+    "creation": {
+      "title": "Naar creatie",
+      "paragraph-1": "Op basis van de eerste fase werken we de strategie en roadmap uit tot een concreet plan voor realisatie. We starten met het vertalen van de vastgestelde doelen en functionele eisen naar een eerste ontwerp en technische opzet.",
+      "paragraph-2": "Tijdens deze fase houden we de communicatielijnen open en zorgen we voor regelmatige voortgangsupdates. Zo blijft u altijd op de hoogte van de status en kunt u tijdig feedback geven.",
+      "paragraph-3": "Ons team werkt in korte ontwikkelcycli, waardoor we snel tastbare resultaten kunnen tonen. Dit maakt het mogelijk om vroeg bij te sturen en te garanderen dat het eindproduct volledig aansluit op uw wensen.",
+      "testimonial": {
+        "text": "Beyond Web Solutions hield ons continu op de hoogte en leverde elke stap precies zoals afgesproken.",
+        "author": "Product Owner",
+        "company": "UML.chat"
+      }
+    },
+    "impact": {
+      "title": "Tot impact",
+      "paragraph-1": "In deze laatste fase bereiden we de lancering voor en zorgen we dat alles tot in de puntjes is getest. We controleren of alle functionaliteiten werken zoals bedoeld en voeren de laatste optimalisaties door om de prestaties en gebruikservaring te maximaliseren.",
+      "paragraph-2": "Vlak voor de livegang voeren we een grondige kwaliteitscontrole uit. Dit omvat zowel technische tests als een visuele check, zodat het eindresultaat niet alleen functioneel sterk is, maar ook visueel overtuigt.",
+      "paragraph-3": "Na de lancering blijven we beschikbaar voor ondersteuning en eventuele doorontwikkeling. Zo zorgen we ervoor dat uw digitale oplossing ook op de lange termijn blijft presteren en meegaat met nieuwe ontwikkelingen.",
+      "list": {
+        "title": "Onze focus in deze fase",
+        "items": {
+          "1": {
+            "title": "Testen",
+            "description": "Uitgebreide functionele en prestatiecontroles voor een foutloze lancering."
+          },
+          "2": {
+            "title": "Optimalisatie",
+            "description": "Fijnslijpen van prestaties, stabiliteit en gebruikservaring voor maximale impact."
+          },
+          "3": {
+            "title": "Ondersteuning",
+            "description": "- Beschikbaar voor support, updates en toekomstige uitbreidingen."
+          }
+        }
+      }
+    },
+    "values": {
+      "eyebrow": "Onze waarden",
+      "title": "Betrouwbaarheid en innovatie in balans",
+      "subtitle": "Wij combineren de zekerheid van bewezen kwaliteit met de kracht van vooruitstrevende technologie. Onze kernwaarden vormen de basis van elk project en zorgen voor duurzame samenwerkingen en succesvolle resultaten.",
+      "values": {
+        "quality": {
+          "title": "Kwaliteit",
+          "description": "We leveren oplossingen die technisch sterk, veilig en toekomstbestendig zijn. Elk detail telt."
+        },
+        "efficiency": {
+          "title": "Efficiëntie",
+          "description": "We werken doelgericht en gestructureerd, zodat projecten op tijd en volgens afspraak worden opgeleverd."
+        },
+        "flexibility": {
+          "title": "Flexibiliteit",
+          "description": "We passen ons aan aan de unieke behoeften van elke klant en spelen snel in op veranderingen."
+        },
+        "transparency": {
+          "title": "Transparantie",
+          "description": "We communiceren helder over voortgang, keuzes en resultaten, zodat u altijd weet waar u aan toe bent."
+        },
+        "partnership": {
+          "title": "Partnerschap",
+          "description": "We bouwen aan langdurige relaties en werken samen als één team om uw doelen te realiseren."
+        },
+        "innovation": {
+          "title": "Innovatie",
+          "description": "We blijven nieuwe technologieën en AI-oplossingen verkennen om onze klanten een blijvende voorsprong te geven."
+        }
+      }
+    }
   }
 }

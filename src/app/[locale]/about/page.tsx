@@ -6,11 +6,23 @@ import { AboutStats } from '@/app/[locale]/about/_components/stats'
 import { AboutCulture } from '@/app/[locale]/about/_components/culture'
 import { AboutTeam } from '@/app/[locale]/about/_components/team'
 import { AboutBlog } from '@/app/[locale]/about/_components/blog'
+import { PageProps } from '@/lib/types/props'
+import { getTranslations } from 'next-intl/server'
 
-export const metadata: Metadata = {
-  title: 'About Us',
-  description:
-    'We believe that our strength lies in our collaborative approach, which puts our clients at the center of everything we do.',
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params
+
+  const t = await getTranslations({
+    locale,
+    namespace: 'about.metadata',
+  })
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  }
 }
 
 export default function About() {
