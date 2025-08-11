@@ -10,7 +10,7 @@ const schema = zfd.formData({
   name: zfd.text(z.string().nonempty()),
   email: zfd.text(z.email()),
   company: zfd.text(z.string().nonempty()),
-  phone: zfd.text(z.string()),
+  phone: zfd.text(z.string().nonempty()),
   message: zfd.text(z.string().nonempty()),
   token: zfd.text(z.string().nonempty()),
 })
