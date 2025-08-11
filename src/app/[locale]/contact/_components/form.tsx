@@ -18,7 +18,7 @@ import clsx from 'clsx'
 export function ContactPageForm() {
   const t = useTranslations('contact.form')
 
-  const [token, setToken] = useState<string>('abc')
+  const [token, setToken] = useState<string>('')
 
   const [state, action, pending] = useActionState(contact, null)
 

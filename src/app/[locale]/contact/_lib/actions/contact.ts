@@ -10,7 +10,7 @@ const schema = zfd.formData({
   name: zfd.text(z.string().nonempty()),
   email: zfd.text(z.email()),
   company: zfd.text(z.string().nonempty()),
-  phone: zfd.text(z.string().regex(/^(\+[1-9]\d{1,14}|0\d{8,14})$/)),
+  phone: zfd.text(z.string()),
   message: zfd.text(z.string().nonempty()),
   token: zfd.text(z.string().nonempty()),
 })
