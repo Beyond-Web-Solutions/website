@@ -1,0 +1,303 @@
+{
+  "common": {
+    "organization-name": "Beyond Web Solutions",
+    "organization-name-short": "Beyond",
+    "root-layout": {
+      "header": {
+        "home": "Home",
+        "contact-us": "Neem contact op",
+        "toggle-navigation": "Menu tonen/verbergen",
+        "nav": {
+          "our-work": "Projecten",
+          "about-us": "Over ons",
+          "our-process": "Ons proces",
+          "blog": "Blog"
+        }
+      },
+      "footer": {
+        "work": "Projecten",
+        "company": "Bedrijf",
+        "about": "Over ons",
+        "process": "Ons proces",
+        "blog": "Blog",
+        "contact": "Contact",
+        "connect": "Volg ons",
+        "copyright": "© {year} Beyond Web Solutions. Alle rechten voorbehouden."
+      },
+      "metadata": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "offices": {
+      "our-offices": "Onze kantoren"
+    },
+    "contact-cta": {
+      "title": "Laten we samen uw idee vormgeven.",
+      "button": "Start het gesprek"
+    },
+    "symbols": {
+      "slash": "/",
+      "arrow-right": "→"
+    },
+    "actions": {
+      "read-more": "Lees meer",
+      "see-all": "Bekijk alles"
+    },
+    "author": "{name}, {role}",
+    "grid-list-title": "{title}."
+  },
+  "home": {
+    "metadata": {
+      "title": "Uw Digitale Voorsprong Begint Hier",
+      "description": "Laat uw concurrentie achter u. Wij realiseren uw digitale ambities met cutting-edge maatwerk applicaties en slimme, geïntegreerde AI-oplossingen."
+    },
+    "hero": {
+      "title": "Wij brengen uw digitale plannen tot leven",
+      "subtitle": "Wij realiseren uw visie door een hoogwaardige maatwerk applicatie te ontwikkelen, waarin we de nieuwste technologieën en slimme AI-oplossingen integreren voor een duurzame voorsprong."
+    },
+    "clients": {
+      "title": "Zij vertrouwden ons hun digitale toekomst toe"
+    },
+    "case-studies": {
+      "title": "Waar innovatie en ambitie samenkomen",
+      "subtitle": "Dit is het concrete bewijs van hoe onze technologische expertise de visie van onze klanten omzet in meetbaar succes en een beslissende voorsprong.",
+      "case-study": "Case study"
+    },
+    "testimonial": "Het werk van Beyond Web Solutions is van topkwaliteit. Zij kunnen een compleet systeem leveren volgens de specificaties en ondersteuning bieden.",
+    "services": {
+      "eyebrow": "Diensten",
+      "title": "De juiste oplossing voor elke digitale vraag",
+      "subtitle": "Van strategisch advies en maatwerk webdevelopment tot AI-integraties; dit zijn de componenten waarmee we uw digitale ambities realiseren.",
+      "list": {
+        "web-development": {
+          "title": "Maatwerk Applicaties",
+          "description": "Digitale oplossingen die naadloos aansluiten op uw bedrijfsprocessen. Gebouwd voor snelheid, schaalbaarheid en een feilloze gebruikerservaring."
+        },
+        "ai-integration": {
+          "title": "AI Integraties",
+          "description": "Wij verrijken uw applicatie met slimme AI of lossen specifieke AI-vraagstukken op. Zo zetten we complexe uitdagingen om in een strategische voorsprong."
+        },
+        "consultancy": {
+          "title": "Strategisch Advies",
+          "description": "Als uw technologische partner vertalen we uw bedrijfsdoelen naar een concrete, digitale roadmap. Zo maakt u de juiste keuzes voor de toekomst."
+        },
+        "e-commerce": {
+          "title": "E-commerce Oplossingen",
+          "description": "Meer dan een webshop: een compleet verkoopplatform. We integreren uw voorraad- en kassasystemen voor een gestroomlijnde operatie en maximale omzet."
+        }
+      }
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "Onze Missie & Visie",
+      "description": "Ontdek de filosofie achter Beyond Web Solutions. Leer hoe onze passie voor kwaliteit, innovatie en transparantie de basis vormt van elk succesvol project."
+    },
+    "intro": {
+      "title": "Gedreven door technologie, gericht op uw succes",
+      "subtitle": "Wij combineren uw visie met onze technologische expertise om uw digitale ambities te realiseren.",
+      "paragraphs": {
+        "1": "Onze missie is de kloof te dichten tussen de potentie van moderne technologie en de standaardoplossingen die de markt domineren. Wij geloven dat ambitieuze bedrijven een partner verdienen die hun visie vertaalt naar een concrete, digitale voorsprong.",
+        "2": "Ons team deelt een passie voor kwaliteit. We zijn pas tevreden als een oplossing niet alleen technisch uitmuntend is, maar ook elegant en toekomstbestendig. Deze focus is de motor achter het succes van onze klanten."
+      }
+    },
+    "stats": {
+      "1": "Jaar ervaring",
+      "2": "Projecten afgerond",
+      "3": "Gemiddelde PageSpeed score"
+    },
+    "culture": {
+      "eyebrow": "Onze principes",
+      "title": "De fundering van elk succesvol project.",
+      "subtitle": "Dit zijn de drie kernprincipes die ons werk definiëren en de kwaliteit voor onze klanten garanderen.",
+      "values": {
+        "quality": {
+          "title": "Kwaliteit boven alles",
+          "description": "Wij doen geen concessies aan kwaliteit. Onze oplossingen zijn robuust, schaalbaar en veilig, gebouwd op een fundament van schone code."
+        },
+        "innovation": {
+          "title": "Innovatie als instrument",
+          "description": "Technologie is voor ons een strategisch instrument, geen doel op zich. We zetten AI en cutting-edge oplossingen in om u een concrete, meetbare voorsprong te geven."
+        },
+        "transparency": {
+          "title": "Transparantie in alles",
+          "description": "Een succesvol partnerschap rust op heldere communicatie. U bent altijd op de hoogte van de voortgang, de volgende stappen en de 'waarom' achter onze keuzes."
+        }
+      }
+    },
+    "team": {
+      "team": "Team"
+    },
+    "blog": {
+      "title": "De laatste inzichten en artikelen.",
+      "subtitle": "Lees onze kijk op de wereld van webontwikkeling en AI. We delen regelmatig onze expertise om u te helpen de juiste strategische keuzes te maken."
+    }
+  },
+  "work": {
+    "metadata": {
+      "title": "Bedrijven die met ons bouwen aan de toekomst",
+      "description": "Wij werken samen met vooruitstrevende organisaties om digitale ambities te realiseren. Ontdek wie ons hun vertrouwen geeft."
+    },
+    "intro": {
+      "eyebrow": "Onze projecten",
+      "title": "Digitale oplossingen die ambities tot leven brengen",
+      "subtitle": "Elk project is een samenwerking waarin we visie vertalen naar een functionele, schaalbare en toekomstbestendige oplossing. Ontdek hoe wij ideeën omzetten in digitale realiteit."
+    },
+    "learn-more": "Meer informatie",
+    "testimonial": "Beyond Web Solutions heeft onze visie omgezet in een krachtige, gebruiksvriendelijke applicatie. Hun expertise in AI en oog voor detail hebben ervoor gezorgd dat UML.chat vanaf dag één impact maakt.",
+    "clients": "U bevindt zich in goed gezelschap"
+  },
+  "process": {
+    "metadata": {
+      "title": "Ons proces",
+      "description": "Ontdek hoe wij van idee tot impact werken. Met een helder proces zorgen we voor duidelijke stappen, efficiënte uitvoering en digitale oplossingen die resultaat opleveren."
+    },
+    "intro": {
+      "eyebrow": "Ons proces",
+      "title": "Van eerste idee tot succesvolle oplevering",
+      "description": "Wij werken volgens een helder en gestructureerd proces dat zorgt voor duidelijkheid, efficiëntie en kwaliteit in elke fase van het project."
+    },
+    "idea": {
+      "title": "Van idee",
+      "paragraph-1": "We starten elk project met het begrijpen van uw visie, doelen en uitdagingen. In deze fase luisteren we, stellen we de juiste vragen en analyseren we de context waarin uw organisatie opereert. Zo krijgen we een helder beeld van wat u wilt bereiken en welke digitale oplossing daar het beste bij past.",
+      "paragraph-2": "Door samen te sparren en ideeën te verkennen, vertalen we uw input naar een concreet plan van aanpak. Dit vormt de basis voor een oplossing die niet alleen technisch sterk is, maar ook perfect aansluit op uw bedrijfsdoelen.",
+      "list": {
+        "title": "Onze focus in deze fase",
+        "items": {
+          "1": "Behoeftenanalyse",
+          "2": "Doelgroepanalyse",
+          "3": "Functionele eisen",
+          "4": "Strategie & roadmap"
+        }
+      }
+    },
+    "creation": {
+      "title": "Naar creatie",
+      "paragraph-1": "Op basis van de eerste fase werken we de strategie en roadmap uit tot een concreet plan voor realisatie. We starten met het vertalen van de vastgestelde doelen en functionele eisen naar een eerste ontwerp en technische opzet.",
+      "paragraph-2": "Tijdens deze fase houden we de communicatielijnen open en zorgen we voor regelmatige voortgangsupdates. Zo blijft u altijd op de hoogte van de status en kunt u tijdig feedback geven.",
+      "paragraph-3": "Ons team werkt in korte ontwikkelcycli, waardoor we snel tastbare resultaten kunnen tonen. Dit maakt het mogelijk om vroeg bij te sturen en te garanderen dat het eindproduct volledig aansluit op uw wensen.",
+      "testimonial": {
+        "text": "Beyond Web Solutions hield ons continu op de hoogte en leverde elke stap precies zoals afgesproken.",
+        "author": "Product Owner",
+        "company": "UML.chat"
+      }
+    },
+    "impact": {
+      "title": "Tot impact",
+      "paragraph-1": "In deze laatste fase bereiden we de lancering voor en zorgen we dat alles tot in de puntjes is getest. We controleren of alle functionaliteiten werken zoals bedoeld en voeren de laatste optimalisaties door om de prestaties en gebruikservaring te maximaliseren.",
+      "paragraph-2": "Vlak voor de livegang voeren we een grondige kwaliteitscontrole uit. Dit omvat zowel technische tests als een visuele check, zodat het eindresultaat niet alleen functioneel sterk is, maar ook visueel overtuigt.",
+      "paragraph-3": "Na de lancering blijven we beschikbaar voor ondersteuning en eventuele doorontwikkeling. Zo zorgen we ervoor dat uw digitale oplossing ook op de lange termijn blijft presteren en meegaat met nieuwe ontwikkelingen.",
+      "list": {
+        "title": "Onze focus in deze fase",
+        "items": {
+          "1": {
+            "title": "Testen",
+            "description": "Uitgebreide functionele en prestatiecontroles voor een foutloze lancering."
+          },
+          "2": {
+            "title": "Optimalisatie",
+            "description": "Fijnslijpen van prestaties, stabiliteit en gebruikservaring voor maximale impact."
+          },
+          "3": {
+            "title": "Ondersteuning",
+            "description": "- Beschikbaar voor support, updates en toekomstige uitbreidingen."
+          }
+        }
+      }
+    },
+    "values": {
+      "eyebrow": "Onze waarden",
+      "title": "Betrouwbaarheid en innovatie in balans",
+      "subtitle": "Wij combineren de zekerheid van bewezen kwaliteit met de kracht van vooruitstrevende technologie. Onze kernwaarden vormen de basis van elk project en zorgen voor duurzame samenwerkingen en succesvolle resultaten.",
+      "values": {
+        "quality": {
+          "title": "Kwaliteit",
+          "description": "We leveren oplossingen die technisch sterk, veilig en toekomstbestendig zijn. Elk detail telt."
+        },
+        "efficiency": {
+          "title": "Efficiëntie",
+          "description": "We werken doelgericht en gestructureerd, zodat projecten op tijd en volgens afspraak worden opgeleverd."
+        },
+        "flexibility": {
+          "title": "Flexibiliteit",
+          "description": "We passen ons aan aan de unieke behoeften van elke klant en spelen snel in op veranderingen."
+        },
+        "transparency": {
+          "title": "Transparantie",
+          "description": "We communiceren helder over voortgang, keuzes en resultaten, zodat u altijd weet waar u aan toe bent."
+        },
+        "partnership": {
+          "title": "Partnerschap",
+          "description": "We bouwen aan langdurige relaties en werken samen als één team om uw doelen te realiseren."
+        },
+        "innovation": {
+          "title": "Innovatie",
+          "description": "We blijven nieuwe technologieën en AI-oplossingen verkennen om onze klanten een blijvende voorsprong te geven."
+        }
+      }
+    }
+  },
+  "blog": {
+    "metadata": {
+      "title": "Blog & Inzichten",
+      "description": "Ontdek onze artikelen over webontwikkeling, AI-integratie en digitale strategie. Praktische tips, inspirerende cases en trends die uw digitale groei versnellen."
+    },
+    "intro": {
+      "eyebrow": "Blog & Inzichten",
+      "title": "Onze kennis, gedeeld met u",
+      "description": "Lees onze artikelen over webontwikkeling, AI-integratie en digitale strategie. Praktische tips, inspirerende cases en de laatste trends om uw digitale ambities te realiseren."
+    },
+    "articles": {
+      "read-more": "Lees meer",
+      "published": "Geplaatst op",
+      "author": "Auteur"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact",
+      "description": "Neem contact op met Beyond Web Solutions voor vragen, samenwerkingen of nieuwe projecten. Wij helpen u graag uw digitale ideeën om te zetten in succesvolle oplossingen."
+    },
+    "intro": {
+      "eyebrow": "Contact",
+      "title": "Samen uw digitale plannen realiseren",
+      "description": "Heeft u een idee of uitdaging? Wij denken graag mee en vertalen uw visie naar een succesvolle digitale oplossing."
+    },
+    "details": {
+      "email-us": "E-mail ons",
+      "follow-us": "Volg ons",
+      "email-addresses": {
+        "general": "Algemeen",
+        "support": "Ondersteuning"
+      }
+    },
+    "form": {
+      "title": "Projectaanvraag",
+      "fields": {
+        "name": "Naam",
+        "email": "E-mailadres",
+        "company": "Bedrijfsnaam",
+        "phone": "Telefoonnummer",
+        "message": "Bericht"
+      },
+      "response": {
+        "validation-error": "Controleer uw invoer. Zorg ervoor dat alle velden correct zijn ingevuld.",
+        "success": "Bedankt voor uw aanvraag! We nemen zo snel mogelijk contact met u op.",
+        "error": "Er is een fout opgetreden bij het verzenden van uw aanvraag",
+        "captcha": "Controleer of u de reCAPTCHA hebt voltooid."
+      },
+      "submit": "Verstuur aanvraag"
+    }
+  },
+  "article": {
+    "by": "Door {author}, {role}",
+    "more-articles": "Meer artikelen"
+  },
+  "case-study": {
+    "client": "Klant",
+    "year": "Jaar",
+    "service": "Diensten",
+    "more-case-studies": "Meer case studies"
+  }
+}
