@@ -25,9 +25,10 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: '%s - Studio',
-      default: 'Studio - Award winning developer studio based in Denmark',
+      template: '%s | Beyond Web Solutions',
+      default: t('default'),
     },
+    description: t('description'),
   }
 }
 
