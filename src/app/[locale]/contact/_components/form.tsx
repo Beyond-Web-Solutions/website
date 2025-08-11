@@ -41,38 +41,26 @@ export function ContactPageForm() {
           </div>
         )}
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
-          <TextInput
-            label={t('fields.name')}
-            name="name"
-            autoComplete="name"
-            defaultValue="Mees Egberts"
-          />
+          <TextInput label={t('fields.name')} name="name" autoComplete="name" />
           <TextInput
             label={t('fields.email')}
             type="email"
             name="email"
             autoComplete="email"
-            defaultValue="mail@meesegberts.nl"
           />
           <TextInput
             label={t('fields.company')}
             name="company"
             autoComplete="organization"
-            defaultValue="Beyond Web Solutions"
           />
           <TextInput
             label={t('fields.phone')}
             type="tel"
             name="phone"
             autoComplete="tel"
-            defaultValue="+31612345678"
           />
           <input className="hidden" name="token" value={token} readOnly />
-          <TextInput
-            label={t('fields.message')}
-            name="message"
-            defaultValue="dit is een test bericht!"
-          />
+          <TextInput label={t('fields.message')} name="message" />
         </div>
         <Button disabled={pending} type="submit" className="mt-10">
           {pending ? <Spinner /> : t('submit')}
