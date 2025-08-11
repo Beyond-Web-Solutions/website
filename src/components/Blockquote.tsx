@@ -2,6 +2,7 @@ import Image, { type ImageProps } from 'next/image'
 import clsx from 'clsx'
 
 import { Border } from '@/components/Border'
+import { useTranslations } from 'next-intl'
 
 type ImagePropsWithOptionalAlt = Omit<ImageProps, 'alt'> & { alt?: string }
 
@@ -53,6 +54,8 @@ function BlockquoteWithoutImage({
   children: React.ReactNode
   className?: string
 }) {
+  const t = useTranslations('common')
+
   return (
     <Border position="left" className={clsx('pl-8', className)}>
       <figure className="text-sm">
@@ -60,7 +63,7 @@ function BlockquoteWithoutImage({
           {typeof children === 'string' ? <p>{children}</p> : children}
         </blockquote>
         <figcaption className="mt-6 font-semibold text-neutral-950">
-          {author.name}, {author.role}
+          {t('author', { name: author.name, role: author.role })}
         </figcaption>
       </figure>
     </Border>

@@ -28,14 +28,18 @@
     "next-intl": "^4.3.4",
     "react": "^19",
     "react-dom": "^19",
+    "react-turnstile": "^1.1.4",
     "recma-import-images": "0.0.3",
     "rehype-unwrap-images": "^1.0.0",
     "remark-gfm": "^4.0.1",
     "remark-rehype-wrap": "0.0.5",
+    "resend": "^6.0.1",
     "shiki": "^0.11.1",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
-    "unified-conditional": "0.0.2"
+    "unified-conditional": "0.0.2",
+    "zod": "^4.0.17",
+    "zod-form-data": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.1.0",

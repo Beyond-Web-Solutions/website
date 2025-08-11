@@ -9,6 +9,7 @@ import Image from 'next/image'
 export async function HomePageCaseStudies() {
   const caseStudies = (await loadCaseStudies()).slice(0, 3)
   const t = await getTranslations('home.case-studies')
+  const t_common = await getTranslations('common.symbols')
 
   return (
     <>
@@ -38,9 +39,8 @@ export async function HomePageCaseStudies() {
                   >
                     {caseStudy.date.split('-')[0]}
                   </time>
-                  {/* eslint-disable-next-line react/jsx-no-literals */}
                   <span className="text-neutral-300" aria-hidden="true">
-                    /
+                    {t_common('slash')}
                   </span>
                   <span>{t('case-study')}</span>
                 </p>

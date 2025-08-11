@@ -25,6 +25,7 @@ function Office({
   )
 }
 
+/*
 export function Offices({
   invert = false,
   ...props
@@ -48,3 +49,4 @@ export function Offices({
     </ul>
   )
 }
+*/

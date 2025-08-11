@@ -14,6 +14,16 @@
           "blog": "Blog"
         }
       },
+      "footer": {
+        "work": "Projecten",
+        "company": "Bedrijf",
+        "about": "Over ons",
+        "process": "Ons proces",
+        "blog": "Blog",
+        "contact": "Contact",
+        "connect": "Volg ons",
+        "copyright": "© {year} Beyond Web Solutions. Alle rechten voorbehouden."
+      },
       "metadata": {
         "title": "",
         "description": ""
@@ -26,9 +36,16 @@
       "title": "Laten we samen uw idee vormgeven.",
       "button": "Start het gesprek"
     },
-"symbols": {
-  "slash": "/"
-}
+    "symbols": {
+      "slash": "/",
+      "arrow-right": "→"
+    },
+    "actions": {
+      "read-more": "Lees meer",
+      "see-all": "Bekijk alles"
+    },
+    "author": "{name}, {role}",
+    "grid-list-title": "{title}."
   },
   "home": {
     "metadata": {
@@ -220,5 +237,67 @@
         }
       }
     }
+  },
+  "blog": {
+    "metadata": {
+      "title": "Blog & Inzichten",
+      "description": "Ontdek onze artikelen over webontwikkeling, AI-integratie en digitale strategie. Praktische tips, inspirerende cases en trends die uw digitale groei versnellen."
+    },
+    "intro": {
+      "eyebrow": "Blog & Inzichten",
+      "title": "Onze kennis, gedeeld met u",
+      "description": "Lees onze artikelen over webontwikkeling, AI-integratie en digitale strategie. Praktische tips, inspirerende cases en de laatste trends om uw digitale ambities te realiseren."
+    },
+    "articles": {
+      "read-more": "Lees meer",
+      "published": "Geplaatst op",
+      "author": "Auteur"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact",
+      "description": "Neem contact op met Beyond Web Solutions voor vragen, samenwerkingen of nieuwe projecten. Wij helpen u graag uw digitale ideeën om te zetten in succesvolle oplossingen."
+    },
+    "intro": {
+      "eyebrow": "Contact",
+      "title": "Samen uw digitale plannen realiseren",
+      "description": "Heeft u een idee of uitdaging? Wij denken graag mee en vertalen uw visie naar een succesvolle digitale oplossing."
+    },
+    "details": {
+      "email-us": "E-mail ons",
+      "follow-us": "Volg ons",
+      "email-addresses": {
+        "general": "Algemeen",
+        "support": "Ondersteuning"
+      }
+    },
+    "form": {
+      "title": "Projectaanvraag",
+      "fields": {
+        "name": "Naam",
+        "email": "E-mailadres",
+        "company": "Bedrijfsnaam",
+        "phone": "Telefoonnummer",
+        "message": "Bericht"
+      },
+      "response": {
+        "validation-error": "Controleer uw invoer. Zorg ervoor dat alle velden correct zijn ingevuld.",
+        "success": "Bedankt voor uw aanvraag! We nemen zo snel mogelijk contact met u op.",
+        "error": "Er is een fout opgetreden bij het verzenden van uw aanvraag",
+        "captcha": "Controleer of u de reCAPTCHA hebt voltooid."
+      },
+      "submit": "Verstuur aanvraag"
+    }
+  },
+  "article": {
+    "by": "Door {author}, {role}",
+    "more-articles": "Meer artikelen"
+  },
+  "case-study": {
+    "client": "Klant",
+    "year": "Jaar",
+    "service": "Diensten",
+    "more-case-studies": "Meer case studies"
   }
 }

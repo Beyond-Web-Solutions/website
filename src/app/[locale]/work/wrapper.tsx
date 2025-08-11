@@ -6,17 +6,20 @@ import { MDXComponents } from '@/components/MDXComponents'
 import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { RootLayout } from '@/components/RootLayout'
-import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
+import { type CaseStudy, loadCaseStudies, type MDXEntry } from '@/lib/mdx'
+import { ReactNode } from 'react'
+import { getTranslations } from 'next-intl/server'
 
 export default async function CaseStudyLayout({
   caseStudy,
   children,
 }: {
   caseStudy: MDXEntry<CaseStudy>
-  children: React.ReactNode
+  children: ReactNode
 }) {
-  let allCaseStudies = await loadCaseStudies()
-  let moreCaseStudies = allCaseStudies
+  const t = await getTranslations('case-study')
+  const allCaseStudies = await loadCaseStudies()
+  const moreCaseStudies = allCaseStudies
     .filter(({ metadata }) => metadata !== caseStudy)
     .slice(0, 2)
 
@@ -34,11 +37,11 @@ export default async function CaseStudyLayout({
                 <div className="mx-auto max-w-5xl">
                   <dl className="-mx-6 grid grid-cols-1 text-sm text-neutral-950 sm:mx-0 sm:grid-cols-3">
                     <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-t-0 sm:border-l">
-                      <dt className="font-semibold">Client</dt>
+                      <dt className="font-semibold">{t('client')}</dt>
                       <dd>{caseStudy.client}</dd>
                     </div>
                     <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-t-0 sm:border-l">
-                      <dt className="font-semibold">Year</dt>
+                      <dt className="font-semibold">{t('year')}</dt>
                       <dd>
                         <time dateTime={caseStudy.date.split('-')[0]}>
                           {caseStudy.date.split('-')[0]}
@@ -46,7 +49,7 @@ export default async function CaseStudyLayout({
                       </dd>
                     </div>
                     <div className="border-t border-neutral-200 px-6 py-4 first:border-t-0 sm:border-t-0 sm:border-l">
-                      <dt className="font-semibold">Service</dt>
+                      <dt className="font-semibold">{t('service')}</dt>
                       <dd>{caseStudy.service}</dd>
                     </div>
                   </dl>
@@ -78,7 +81,7 @@ export default async function CaseStudyLayout({
       {moreCaseStudies.length > 0 && (
         <PageLinks
           className="mt-24 sm:mt-32 lg:mt-40"
-          title="More case studies"
+          title={t('more-case-studies')}
           pages={moreCaseStudies}
         />
       )}
