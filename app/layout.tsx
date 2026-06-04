@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   description:
     "Wij ontwerpen en ontwikkelen schaalbare softwareoplossingen, SaaS-platformen en mobiele apps die organisaties helpen efficiënter te werken en sneller te innoveren.",
   openGraph: {
-    title: "My Portfolio",
+    title: "Beyond Web Solutions",
     description:
       "Wij ontwerpen en ontwikkelen schaalbare softwareoplossingen, SaaS-platformen en mobiele apps die organisaties helpen efficiënter te werken en sneller te innoveren..",
     url: baseUrl,
-    siteName: "My Portfolio",
+    siteName: "Beyond Web Solutions",
     locale: "nl_NL",
     type: "website",
   },
