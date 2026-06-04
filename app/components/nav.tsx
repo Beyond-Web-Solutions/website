@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navItems = {
@@ -17,10 +18,52 @@ export function Navbar() {
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
         <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+          className="flex w-full flex-row items-center justify-between gap-4 px-0 pb-0 fade md:overflow-auto scroll-pr-6"
           id="nav"
         >
-          <div className="flex flex-row space-x-0 pr-10">
+          <Link
+            href="/"
+            aria-label="Beyond Web Solutions home"
+            className="m-1 flex shrink-0 items-center px-2 py-1 transition-opacity hover:opacity-80"
+          >
+            <span className="block sm:hidden">
+              <Image
+                src="/emblem-dark.svg"
+                alt="Beyond Web Solutions"
+                width={32}
+                height={32}
+                priority
+                className="h-8 w-8 dark:hidden"
+              />
+              <Image
+                src="/emblem-light.svg"
+                alt="Beyond Web Solutions"
+                width={32}
+                height={32}
+                priority
+                className="hidden h-8 w-8 dark:block"
+              />
+            </span>
+            <span className="hidden sm:block">
+              <Image
+                src="/logo-dark.svg"
+                alt="Beyond Web Solutions"
+                width={206}
+                height={34}
+                priority
+                className="h-8 w-auto dark:hidden"
+              />
+              <Image
+                src="/logo-light.svg"
+                alt="Beyond Web Solutions"
+                width={206}
+                height={34}
+                priority
+                className="hidden h-8 w-auto dark:block"
+              />
+            </span>
+          </Link>
+          <div className="ml-auto flex flex-row justify-end space-x-0">
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
                 <Link
