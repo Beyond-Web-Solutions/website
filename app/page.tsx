@@ -44,6 +44,7 @@ export default function Page() {
         oplossingen die organisaties helpen efficiënter te werken, sneller te
         innoveren en met vertrouwen verder te groeien.
       </p>
+
       <div className="my-8">
         <BlogPosts />
       </div>
